@@ -17,7 +17,7 @@ import base64
 # === Settings ===
 MAIN_KEY = base64.b64decode('WWcmdGMlREV1aDYlWmNeOA==')
 MAIN_IV = base64.b64decode('Nm95WkRyMjJFM3ljaGpNJQ==')
-RELEASEVERSION = "OB53"  #soon OB53
+RELEASEVERSION = "OB54"  #soon OB55
 USERAGENT = "Dalvik/2.1.0 (Linux; U; Android 13; CPH2095 Build/RKQ1.211119.001)"
 SUPPORTED_REGIONS = {"IND", "BR", "US", "SAC", "NA", "SG", "RU", "ID", "TW", "VN", "TH", "ME", "PK", "CIS", "BD", "EU"}
 
@@ -50,7 +50,7 @@ def get_account_credentials(region: str) -> str:
     if r == "ME":
         return "uid=4352009989&password=E1EF05A24A6733D76012AA16BE4D3902439D00B5EB4BBF0F302DCE756BB48434"
     elif r == "BD":
-        return "uid=4328635811&password=8BD24E5919FDE1FC60470636DFFFB6F5E993CAAA0691C381E8E04B3655A7F675"
+        return "uid=4582103967&password=UDITGAMING45_3SQBS"
     elif r in {"BR", "US", "SAC", "ME"}:
         return "uid=4328635811&password=8BD24E5919FDE1FC60470636DFFFB6F5E993CAAA0691C381E8E04B3655A7F675"
     else:
